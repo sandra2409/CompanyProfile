@@ -1,0 +1,17 @@
+.ukuran.image{
+    width: 250;
+    height:250;
+}
+.wa {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1850;
+    background-color:  rgb(213, 156,188);
+    color: white;
+    /* background-color: blueviolet (138, 43, 226); */
+    /* color: white; */
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}

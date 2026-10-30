@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Ekstrakurikuler Silat</title>
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .card {
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">SILAT SEKOLAH</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kegiatan">Kegiatan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>EKSTRAKURIKULER SILAT</h1>
+            <p class="lead">
+                Membangun generasi yang disiplin, kuat, percaya diri, dan berprestasi.
+            </p>
+
+            <a href="#tentang" class="btn btn-danger btn-lg">
+                Pelajari Selengkapnya
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Tentang -->
+    <section id="tentang" class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Tentang Ekstrakurikuler Silat</h2>
+                <p>
+                    Ekstrakurikuler silat merupakan kegiatan olahraga bela diri
+                    yang melatih fisik, mental, disiplin, dan kerja sama.
+                </p>
+            </div>
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=800&q=80"
+                        class="img-fluid rounded shadow"
+                        alt="Latihan Silat">
+                </div>
+
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <h3>Manfaat Mengikuti Silat</h3>
+
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            💪 Meningkatkan kebugaran tubuh
+                        </li>
+                        <li class="list-group-item">
+                            🥋 Mempelajari teknik bela diri
+                        </li>
+                        <li class="list-group-item">
+                            🎯 Melatih kedisiplinan
+                        </li>
+                        <li class="list-group-item">
+                            🤝 Meningkatkan kerja sama
+                        </li>
+                        <li class="list-group-item">
+                            🏆 Mengembangkan prestasi
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Kegiatan -->
+    <section id="kegiatan" class="py-5 bg-light">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Kegiatan Silat</h2>
+                <p>Beberapa kegiatan yang dilakukan dalam ekstrakurikuler silat.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <h3>🥋</h3>
+                            <h5 class="card-title">Latihan Teknik</h5>
+                            <p class="card-text">
+                                Latihan dasar seperti kuda-kuda, pukulan,
+                                tendangan, dan teknik pertahanan.
+                            </p>
+                            <button class="btn btn-danger">
+                                Selengkapnya
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <h3>🏆</h3>
+                            <h5 class="card-title">Kompetisi</h5>
+                            <p class="card-text">
+                                Mengikuti berbagai perlombaan silat untuk
+                                mengembangkan pengalaman dan prestasi siswa.
+                            </p>
+                            <button class="btn btn-danger">
+                                Selengkapnya
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <h3>🤝</h3>
+                            <h5 class="card-title">Latihan Bersama</h5>
+                            <p class="card-text">
+                                Melakukan latihan bersama untuk meningkatkan
+                                kekompakan dan kerja sama antaranggota.
+                            </p>
+                            <button class="btn btn-danger">
+                                Selengkapnya
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Jadwal -->
+    <section class="py-5">
+        <div class="container">
+
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Jadwal Latihan</h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Hari</th>
+                            <th>Waktu</th>
+                            <th>Tempat</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Selasa</td>
+                            <td>15.00 - 17.00</td>
+                            <td>Lapangan Sekolah</td>
+                        </tr>
+
+                        <tr>
+                            <td>Kamis</td>
+                            <td>15.00 - 17.00</td>
+                            <td>Lapangan Sekolah</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sabtu</td>
+                            <td>08.00 - 10.00</td>
+                            <td>Lapangan Sekolah</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Kontak -->
+    <section id="kontak" class="py-5 bg-danger text-white">
+        <div class="container text-center">
+
+            <h2 class="fw-bold">Tertarik Bergabung?</h2>
+
+            <p>
+                Yuk bergabung dengan ekstrakurikuler silat sekolah!
+            </p>
+
+            <a href="https://wa.me/62812854284"
+                class="btn btn-light btn-lg">
+                Hubungi Kami
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p class="mb-0">
+            © 2026 Ekstrakurikuler Silat Sekolah
+        </p>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

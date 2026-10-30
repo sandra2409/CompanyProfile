@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk Komputer</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: white;
+        }
+
+        .container {
+            width: 90%;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .deskripsi {
+            color: gray;
+            margin-bottom: 35px;
+        }
+
+        .produk {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            width: 30%;
+            padding: 15px;
+            text-align: left;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        .gambar {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .card h2 {
+            font-size: 18px;
+        }
+
+        .card p {
+            color: gray;
+        }
+
+        .harga {
+            font-weight: bold;
+            color: black !important;
+        }
+
+        button {
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+            padding: 9px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Katalog Produk Komputer</h1>
+        <p class="deskripsi">Silakan pilih produk yang ingin Anda lihat.</p>
+
+        <div class="produk">
+
+            <!-- Laptop -->
+            <div class="card">
+                <img class="gambar"
+                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80">
+
+                <h2>Laptop</h2>
+                <p>Deskripsi produk laptop.</p>
+                <p class="harga">Rp7.500.000</p>
+                <button>Lihat Detail</button>
+            </div>
+
+            <!-- Keyboard -->
+            <div class="card">
+                <img class="gambar"
+                src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80">
+
+                <h2>Keyboard</h2>
+                <p>Deskripsi produk keyboard.</p>
+                <p class="harga">Rp500.000</p>
+                <button>Lihat Detail</button>
+            </div>
+
+            <!-- Mouse -->
+            <div class="card">
+                <img class="gambar"
+                src="https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=600&q=80">
+
+                <h2>Mouse</h2>
+                <p>Deskripsi produk mouse.</p>
+                <p class="harga">Rp250.000</p>
+                <button>Lihat Detail</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

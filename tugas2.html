@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Piket</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .jadwal {
+            width: 800px;
+            margin: auto;
+        }
+
+        .judul {
+            background-color: #e5a900;
+            padding: 10px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .tabel {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .kolom {
+            padding: 5px;
+            min-height: 130px;
+            font-size: 18px;
+        }
+
+        /* Warna sesuai gambar */
+        .senin {
+            background-color: #16a9df;
+        }
+
+        .selasa {
+            background-color: #21d15b;
+        }
+
+        .rabu {
+            background-color: #ed1c24;
+        }
+
+        .hari {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .nama {
+            margin: 7px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="jadwal">
+
+    <div class="judul">
+        JADWAL PIKET
+    </div>
+
+    <div class="tabel">
+
+        <!-- SENIN -->
+        <div class="kolom senin">
+            <div class="hari">SENIN</div>
+            <div class="nama">AHMAD</div>
+            <div class="nama">ASNAWI</div>
+            <div class="nama">RUDI</div>
+            <div class="nama">HAIKAL</div>
+        </div>
+
+        <!-- SELASA -->
+        <div class="kolom selasa">
+            <div class="hari">SELASA</div>
+            <div class="nama">MARKONAH</div>
+            <div class="nama">SAEPUDIN</div>
+            <div class="nama">YAKUB</div>
+            <div class="nama">DONO</div>
+        </div>
+
+        <!-- RABU -->
+        <div class="kolom rabu">
+            <div class="hari">RABU</div>
+            <div class="nama">JUKI</div>
+            <div class="nama">MONO</div>
+            <div class="nama">JANI</div>
+            <div class="nama">SAHRUL</div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
